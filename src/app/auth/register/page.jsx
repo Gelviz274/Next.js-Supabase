@@ -37,7 +37,7 @@ function Registro() {
                 placeholder="youremail@gmail.com"
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
-                className="p-2 m-4 rounded border text-black"
+                className="p-2 m-4 rounded border text-black w-1/2"
             />
 
             <input 
@@ -45,7 +45,7 @@ function Registro() {
                 placeholder="*******"
                 onChange={(e) => setPassword(e.target.value)}
                 value={password}
-                className="p-2 m-4 rounded border text-black"
+                className="p-2 m-4 rounded border text-black w-1/2"
             />
 
             <button className="bg-blue-500 text-white rounded px-4 py-2 m-4">Register</button>
