@@ -26,7 +26,7 @@ function Homepage() {
   }, []);
 
   return (
-    <div className='text-2xl text-white'>
+    <div className='text-2xl text-secondary'>
       Homepage
       <div>
         {session ? (
